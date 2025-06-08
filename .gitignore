@@ -73,3 +73,13 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Expo
+.expo
+dist/
+web-build/
+
+# Build artifacts and SDK tools
+android/android-sdk-tools/
+android/.gradle/
+android/app/build/

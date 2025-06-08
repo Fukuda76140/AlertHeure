@@ -1,4 +1,22 @@
 {
   "name": "AlertHeure",
-  "displayName": "AlertHeure"
+  "displayName": "AlertHeure",
+  "expo": {
+    "name": "AlertHeure",
+    "slug": "alert-heure",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.alertheure.app",
+      "permissions": [
+        "WAKE_LOCK",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-dev-client"
+    ]
+  }
 }

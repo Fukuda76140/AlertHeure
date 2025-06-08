@@ -1,8 +1,28 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 📱 AlertHeure - Application de Suivi d'Horaires
 
-# Getting Started
+> Application React Native pour tracker automatiquement vos heures de travail avec notifications intelligentes.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 🚀 Fonctionnalités
+
+- ⏰ **Timer automatique** : Suivi en temps réel des heures travaillées
+- 🔧 **Configuration flexible** : 36h/semaine (7h12/jour) ou 39h/semaine (7h48/jour)
+- 🍽️ **Pause déjeuner personnalisable** : Défaut 30min, modifiable selon vos besoins
+- 📱 **Notifications push** : 
+  - Fin de journée normale
+  - Alerte heures supplémentaires (après 15min)
+  - Limite maximum atteinte (1h12)
+- 💾 **Persistance des données** : Continue même si l'app est fermée
+- 🎨 **Interface moderne** : Design Material Android
+
+## 📦 Installation
+
+### Option 1: Télécharger l'APK
+1. Allez dans l'onglet **Actions** de ce repo
+2. Cliquez sur le dernier build réussi
+3. Téléchargez l'artifact "AlertHeure-debug-apk"
+4. Installez l'APK sur votre téléphone Android
+
+### Option 2: Build local
 
 ## Step 1: Start Metro
 
