@@ -21,7 +21,7 @@ jobs:
       run: npm install
       
     - name: Install EAS CLI
-      run: npm install -g @expo/eas-cli@latest
+      run: npm install -g eas-cli@latest
       
     - name: Build APK
       run: eas build --platform android --profile preview --non-interactive --no-wait
