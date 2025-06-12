@@ -17,6 +17,12 @@
     },
     "plugins": [
       "expo-dev-client"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e8fffb92-2564-4cd4-a95d-725dd56d9476"
+      }
+    },
+    "owner": "fukuda76140"
   }
 }
