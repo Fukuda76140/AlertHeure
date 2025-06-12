@@ -18,14 +18,14 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '20'
         cache: 'npm'
         
     - name: Install dependencies
       run: npm ci
       
     - name: Setup EAS CLI
-      run: npm install -g eas-cli
+      run: npm install -g eas-cli@latest
       
     - name: Build APK with EAS
       run: |
@@ -35,5 +35,5 @@ jobs:
         
     - name: Get build status
       run: |
-        echo "Build started on EAS Build"
-        echo "Check your builds at: https://expo.dev/accounts/fukuda76140/projects/alert-heure/builds"
+        echo "✅ Build started on EAS Build"
+        echo "🔗 Check your builds at: https://expo.dev/accounts/fukuda76140/projects/alert-heure/builds"
